@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Core.Entites
-
+namespace Entities.Abstract
 {
     public interface IEntity
     {

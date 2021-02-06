@@ -1,11 +1,11 @@
-﻿using Core.Entites;
+﻿using Entities.Abstract;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace Core.DataAccess
-{   //bu interface genel operasyonları tuttugu için bu katmanda (Core) katmanında tutulur.
+namespace DataAccess.Abstract
+{
     //generic constraint-kısıt
     //class : referans tip olabilir. yanı int olamaz 
     // IEntity : ya IEntity olabilir ya da IEntity ı implemente eden bir nesne olabilir
